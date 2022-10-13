@@ -1,0 +1,7 @@
+# python virtual environment
+venv/*
+
+.ipynb_checkpoints
+__pycache__
+
+.vscode/

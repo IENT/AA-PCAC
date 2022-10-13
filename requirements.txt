@@ -1,0 +1,10 @@
+jupyterlab==3.3.4
+numpy==1.21.6
+ipympl==0.9.1
+tqdm==4.64.0
+matplotlib==3.5.1
+scipy==1.7.3
+git+https://github.com/IENT/PyRLGR.git
+git+https://github.com/epfl-lts2/pygsp.git@a7c627e104fd96495c780814ed81c2d9862723d7
+scikit-image==0.19.3
+sklearn
