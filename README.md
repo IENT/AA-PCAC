@@ -9,30 +9,30 @@ Copyright 2022 Institut für Nachrichtentechnik, RWTH Aachen University, Germany
 ## Install
 * Create virtual environment:
 ```bash
-    python -m venv venv
+python -m venv venv
 ```
 
-* Activate environment with
+* Activate the virtual environment with
 ```bash
-    source venv/bin/activate
+source venv/bin/activate
 ```
 
 * Install requirements
 ```bash
-    pip install --upgrade pip
-    pip install -r requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-* Deactivate environment with
+* When done, deactivate the environment with
 ```bash
-    deactivate
+deactivate
 ```
   
 ## Use
-* Adapt the few directory locations (pointclouds, results) for your system.
+* Adapt the directory locations for input pointclouds and results for your system.
 
-* While running the virtual environment:
+* While the virtual environment is active:
 ```bash
-    python ./simulation.py --help
+python ./simulation.py --help
 ```
 

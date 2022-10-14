@@ -44,7 +44,6 @@ beta = args.beta
 # miscellaneous
 bs_dir = args.dir
 decoder_match_test = vars(args)['decoder_match']
-print(decoder_match_test)
 
 qsteps = [1, 2, 4, 8, 12, 16, 20, 24, 32, 64]
 # qsteps = [16, 32]
